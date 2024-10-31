@@ -4,7 +4,7 @@ import { StudentModule } from './student/student.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://ricardopra:1234@usuario.yotq9.mongodb.net/?retryWrites=true&w=majority&appName=usuario'),
+    MongooseModule.forRoot('mongodb+srv://ricardopra:<password>@usuario.yotq9.mongodb.net/?retryWrites=true&w=majority&appName=usuario'),
     StudentModule,
   ],
 })
